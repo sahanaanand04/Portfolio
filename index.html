@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Sahana Anand</title>
+  <meta name="title" content="Sahana Anand portfolio">
+  <meta name="description" content="This is a personal portfolio html">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo" aria-label="Home">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" width="100" height="40">
+          <text x="0" y="35" font-size="20" font-family="Courier New, monospace" fill="#ffffff">
+            (>sa<)
+          </text>
+        </svg>
+      </a>
+
+   
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <!--
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Resume</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Current</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>-->
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header> 
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Sahana Anand</h1>
+
+            <p class="hero-subtitle">
+              Developer, Researcher
+            </p>
+
+            <div class="hero-banner">
+              <img src="./images/hero-banner.png" width="800" height="800" alt="sahana anand smiling with a laptop (imaginary vibe 😄)" class="w-100">
+            </div>
+
+                 <a href="./assets/Sahana_Anand_CV.pdf" class="btn has-before" target="_blank">
+              <span class="span">Dowload CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+          <h2 class="section-text">
+            Hey there, I'm Sahana! 👋
+            I build things that talk to chips and think in bits.
+          </h2>
+            <p class="section-text"> I love exploring🚀 and creating⚙️, I'm a lifelong learner🦾 and I have a thing for Coffee☕️</p>
+
+        </div>
+      </section>
+
+            <!-- 
+        - #Experience
+      -->
+
+      <section class="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Work</p>
+
+            <h2 class="h2 section-title">Experience</h2>
+            <p class="portfolio" > I am a recent Master graduste with 1.5 years of experience in the automotive industry, I've had the privilege of working on embedded systems and software development within complex, safety-critical environments. My time in the field has taught me the importance of precision and thoroughness, especially when working on ECU systems with ARM-based SoC architectures (A53 and R5) while ensuring compliance with ISO 26262 standards. I’ve been involved in software integration and real-time development on QNX and Linux, always with an eye on both performance and reliability. While my experience has been rooted in automotive, I’m particularly passionate about embedded development and have a deep love for C++. I find joy in crafting clean, efficient code, and I’m always eager to learn more and grow. My journey so far has been both challenging and rewarding, and I approach each project with humility, always striving to improve and contribute to the team.</p>
+
+          </div>
+
+          
+
+        </div>
+       
+      </section>
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+      
+          <p class="section-subtitle">Superpowers (a.k.a. What I’m Good At)</p>
+          <h2 class="h2 section-title">Skills</h2>
+      
+          <div class="skills-wrapper">
+      
+            <!-- Text Content -->
+              <p class="section-text">
+                I’m a developer who genuinely loves building things with code. 
+                I may be early in my journey, but I’m deeply curious and always eager to learn something new every day.
+                From embedded systems to simulation tools, I enjoy exploring how things work under the hood and improving bit by bit. 
+                I believe in writing clean, thoughtful code and growing through every project, mistake, and aha moment.
+                
+              <a href="#" class="btn has-before">av.sahana.anand@gmail.com</a>
+              </p>
+              <div>
+
+                <ul class="skills-list">
+                  <li>
+                    <h3 class="h3">Programming & Development</h3>
+                    <p>C++, Embedded C++, C, Python (TensorFlow, OpenCV, NumPy), MATLAB, Git, Docker</p>
+                  </li>
+                  <li>
+                    <h3 class="h3">Embedded Systems</h3>
+                    <p>QNX, Linux, Integrity RTOS, iOS, ARM-based SoCs, STM32</p>
+                  </li>
+                  <li>
+                    <h3 class="h3">Software Simulation</h3>
+                    <p>ROS 2, Gazebo, Virtual Machines, Jenkins</p>
+                  </li>
+                  <li>
+                    <h3 class="h3">Communication Protocols</h3>
+                    <p>CAN, TCP, UDP, UART, Ethernet, IP</p>
+                  </li>
+                </ul>                
+                   
+                </div>
+
+              </div>
+    
+            </div>
+          </section>
+
+
+      <!-- 
+        - #Areas of Interest
+      -->
+
+      <section class="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Fields of Interest
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Projects</h2>
+            </div>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Error Injection in ECU using XCP</h3>
+                  <p class="card-text">
+                    Developed a protocol called XCP to simulate error in the multicore ARM microcontroller..
+                  </p>
+                  <p class="card-text"><strong>Languages:</strong> Python, C++</p>
+                  <p class="card-text"><strong>Tools & Libraries:</strong> TI, Vector tools</p>
+                  <p class="card-text"><strong>Platform:</strong> RTOS, Linux</p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service">Master Thesis</a>
+
+                </div>
+              </li>
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Object Detection System</h3>
+
+                  <p class="card-text">
+                    Developed a hobby project to identify objects in images using pre-trained machine learning models.
+                  </p>
+                  <p class="card-text"><strong>Languages:</strong> Python</p>
+                  <p class="card-text"><strong>Tools & Libraries:</strong> TensorFlow, OpenCV, NumPy</p>
+                  <pc lass="card-text"><strong>Platform:</strong> macOS M1</p>
+                  <a href="https://github.com/sahanaanand04/ObstacleDetectionSystem.git" target="_blank">link</a>  
+                  <span class="text-lg card-number">02</span>
+
+                  
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">CAN Sniffer System</h3>
+                  <p class="card-text">
+                    Developed a system to simulate and analyze CAN frames in the microcontroller.
+                  </p>
+                  <p class="card-text"><strong>Languages:</strong>Python</p>
+                  <p class="card-text"><strong>Tools & Libraries:</strong> STM32 tools</p>
+                  <p class="card-text"><strong>Platform:</strong> Linux</p>
+                  
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">AUTOSAR C++14 Checker</h3>
+                  <p class="card-text">
+                    Developed a static analysis tool for C++ code, implementing AUTOSAR C++14 coding guidelines. Integrated Clang-based parsing and rule enforcement to
+detect violations
+                  </p>
+                  <p class="card-text"><strong>Languages:</strong> C++</p>
+                  <p class="card-text"><strong>Tools & Libraries:</strong> Clang compiler for Mac</p>
+                  <p class="card-text"><strong>Platform:</strong> macOS M1</p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">5-Axial Gear System Simulation</h3>
+                  <p class="card-text">
+                    Developed a hobby project to identify objects in images using pre-trained machine learning models.
+                  </p>
+                  <p class="card-text"><strong>Languages:</strong> MATLAB</p>
+                  <p class="card-text"><strong>Tools & Libraries:</strong> Lua Script</p>
+                  <p class="card-text"><strong>Platform:</strong> Windows</p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Automated Parking Systems</h3>
+                  <p class="card-text">
+                    Under Construction............
+                  </p>
+                  <p class="card-text"><strong>Languages:</strong> Python</p>
+                  <p class="card-text"><strong>Tools & Libraries:</strong> ROS2, Gazebo, TensorFlow, OpenCV, NumPy</p>
+                  <p class="card-text"><strong>Platform:</strong> Linux</p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+    <section class Hobbies>
+        <div class="container">
+          <h4 class="h2 section-title">Hobbies</h4>
+          <p class="section-text">If I am not infront of a computer, I am probably reading or at gym.</p>
+        </div>
+      </section>
+
+
+
+      
+      
+
+
+
+
+
+
+     
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:info@kwilliams.com" class="footer-link">av.sahana.anand@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Germany</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://www.linkedin.com/in/sahana-anand-714539152/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
